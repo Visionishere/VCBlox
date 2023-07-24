@@ -1,0 +1,35 @@
+/* Use CSS variables for reusability and better management of colors */
+:root {
+    --bg-color: rgb(16, 19, 22);
+    --font-color: rgb(242, 243, 243);
+    --banned-color: red;
+    --not-banned-color: green;
+  }
+  
+  /* Define custom fonts */
+  @font-face {
+      font-family: 'GothamSSm-Medium';
+      src: url('GothamSSm-Medium.woff2') format('woff2');
+  }
+  
+  /* Style for body */
+  body {
+      width: 300px;
+      height: 125px; /* Corrected: change 'x' to 'px' */
+      background-color: var(--bg-color);
+      color: var(--font-color);
+      font-family: 'GothamSSm-Medium', sans-serif;
+      border-radius: 10px;
+      font-size: 20px
+  }
+  
+  /* Style for banned users */
+  .banned {
+      color: var(--banned-color);
+  }
+  
+  /* Style for not-banned users */
+  .not-banned {
+      color: var(--not-banned-color);
+  }
+  
