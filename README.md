@@ -5,7 +5,8 @@ All duck taped and smushed with spaghetti code by GPT4
 
 Also, dont use this if your account is to young/age isnt verified. Duh.
 
-## How to use?
+## How to download/use?
+https://dev.to/ben/how-to-install-chrome-extensions-manually-from-github-1612
 Make sure you have cookies enabled and are logged into Roblox. Then click on the mic icon which will show a popup window telling you if you are banned or not.
 
 ## How does it work?
