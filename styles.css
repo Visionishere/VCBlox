@@ -19,6 +19,9 @@
       background-color: var(--bg-color);
       color: var(--font-color);
       font-family: 'GothamSSm-Medium', sans-serif;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      display: grid;
       border-radius: 10px;
       font-size: 20px
   }
