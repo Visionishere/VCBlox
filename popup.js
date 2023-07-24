@@ -46,7 +46,7 @@ function fetchBanInfo() {
       document.getElementById('ban-date').innerHTML = formattedDate;
       document.getElementById('ban-time').innerHTML = formattedTime;
       
-      const countdownMessage = `Suspension Countdown: ${timeDetails}`;
+      const countdownMessage = `${timeDetails}`;
       document.getElementById('ban-duration').innerHTML = countdownMessage;
     } 
     else {
